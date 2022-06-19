@@ -31,6 +31,17 @@ if (horizontalMovement != 0 || verticalMovement != 0) {
 	}
 }
 
+///////////////////////////////// Weapons
+leftMouseButton = mouse_check_button(mb_left);
+
+if (leftMouseButton) {
+	bulletX = x + lengthdir_x(gunDistance, gunAngle + mouse_point_direction);
+	bulletY = y + lengthdir_y(gunDistance, gunAngle + mouse_point_direction);
+	
+	created_bullet = instance_create_layer(bulletX, bulletY, "Instances", o_bullet);
+	created_bullet.direction = mouse_point_direction;
+}
+
 ///////////////////////////////// Camera
 // Center the camera on the player
 camera_set_view_pos(view_camera[0], x - (view_wport[0] / 2), y - (view_hport[0] / 2));

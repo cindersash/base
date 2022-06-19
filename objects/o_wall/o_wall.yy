@@ -1,5 +1,5 @@
 {
-  "name": "o_block",
+  "name": "o_wall",
   "spriteId": {
     "name": "s_block",
     "path": "sprites/s_block/s_block.yy",
