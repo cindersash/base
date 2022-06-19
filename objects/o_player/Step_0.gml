@@ -31,7 +31,6 @@ if (horizontalMovement != 0 || verticalMovement != 0) {
 	}
 }
 
-
 ///////////////////////////////// Camera
 // Center the camera on the player
 camera_set_view_pos(view_camera[0], x - (view_wport[0] / 2), y - (view_hport[0] / 2));

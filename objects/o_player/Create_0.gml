@@ -1,2 +1,2 @@
 // Stats
-baseSpeed = 10;
+baseSpeed = 7;
