@@ -1,8 +1,8 @@
 {
-  "name": "o_player",
+  "name": "o_zombie1",
   "spriteId": {
-    "name": "s_player",
-    "path": "sprites/s_player/s_player.yy",
+    "name": "s_zombie1",
+    "path": "sprites/s_zombie1/s_zombie1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
@@ -10,7 +10,10 @@
   "persistent": false,
   "physicsObject": false,
   "managed": true,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_enemy",
+    "path": "objects/o_enemy/o_enemy.yy",
+  },
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -24,10 +27,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

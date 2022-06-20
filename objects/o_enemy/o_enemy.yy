@@ -1,12 +1,9 @@
 {
-  "name": "o_wall",
-  "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
-  },
+  "name": "o_enemy",
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
-  "solid": true,
+  "solid": false,
   "persistent": false,
   "physicsObject": false,
   "managed": true,
@@ -22,7 +19,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

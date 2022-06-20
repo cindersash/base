@@ -1,8 +1,8 @@
 {
-  "name": "o_wall",
+  "name": "o_base",
   "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
+    "name": "s_base",
+    "path": "sprites/s_base/s_base.yy",
   },
   "spriteMaskId": null,
   "visible": true,
@@ -10,7 +10,10 @@
   "persistent": false,
   "physicsObject": false,
   "managed": true,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_wall",
+    "path": "objects/o_wall/o_wall.yy",
+  },
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,

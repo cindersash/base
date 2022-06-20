@@ -1,2 +1,2 @@
 direction = 0;
-baseSpeed = 4;
+baseSpeed = 40;
