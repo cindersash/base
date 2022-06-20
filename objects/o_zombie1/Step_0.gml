@@ -1,3 +1,4 @@
+baseDirection = point_direction(x, y, o_base.x, o_base.y);
 horizontalVelocity = lengthdir_x(movementStep, baseDirection);
 verticalVelocity = lengthdir_y(movementStep, baseDirection);
 	
