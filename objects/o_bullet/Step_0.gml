@@ -7,6 +7,7 @@ for (i=0; i<baseSpeed; i++) {
 	
 	enemyCollisionInstance = instance_place(x, y, o_enemy);
 	if (enemyCollisionInstance != noone) {
+		// TODO proper damage balancing
 		enemyCollisionInstance.hp -= 10;
 		instance_destroy(id);
 	}

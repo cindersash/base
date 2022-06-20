@@ -30,7 +30,8 @@ if (horizontalMovement != 0 || verticalMovement != 0) {
 }
 
 ///////////////////////////////// Weapons
-leftMouseButton = mouse_check_button(mb_left);
+// TODO upgradeable to fully automatic
+leftMouseButton = mouse_check_button_pressed(mb_left);
 
 if (leftMouseButton) {
 	bulletX = x + lengthdir_x(gunDistance, gunAngle + mouse_point_direction);

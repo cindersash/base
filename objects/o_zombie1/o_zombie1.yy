@@ -1,19 +1,18 @@
 {
-  "name": "o_zombie1",
   "spriteId": {
     "name": "s_zombie1",
     "path": "sprites/s_zombie1/s_zombie1.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": true,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "o_enemy",
     "path": "objects/o_enemy/o_enemy.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -38,6 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "o_zombie1",
   "tags": [],
   "resourceType": "GMObject",
 }
