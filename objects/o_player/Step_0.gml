@@ -14,20 +14,18 @@ verticalMovement = downKey - upKey;
 if (horizontalMovement != 0 || verticalMovement != 0) {
 	pointDirection = point_direction(0, 0, horizontalMovement, verticalMovement);
 
-	horizontalVelocity = round(lengthdir_x(baseSpeed, pointDirection));
-	verticalVelocity = round(lengthdir_y(baseSpeed, pointDirection));
+	horizontalVelocity = lengthdir_x(1, pointDirection);
+	verticalVelocity = lengthdir_y(1, pointDirection);
 	
 	// Move x and y separately to support "sliding" along walls
-	while(abs(horizontalVelocity) > 0 || abs(verticalVelocity) > 0) {
-		if (abs(horizontalVelocity) > 0 && place_free(x + sign(horizontalVelocity), y)) {
-			x += sign(horizontalVelocity);
+	for (i=0; i<baseSpeed; i++) {
+		if (horizontalVelocity != 0 && place_free(x + horizontalVelocity, y)) {
+			x += horizontalVelocity;
 		}
-		horizontalVelocity -= sign(horizontalVelocity);
 		
-		if (abs(verticalVelocity) > 0 && place_free(x, y + sign(verticalVelocity))) {
-			y += sign(verticalVelocity);
+		if (verticalVelocity != 0 && place_free(x, y + verticalVelocity)) {
+			y += verticalVelocity;
 		}
-		verticalVelocity -= sign(verticalVelocity);
 	}
 }
 

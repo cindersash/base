@@ -1,5 +1,5 @@
 // Stats
-baseSpeed = 7;
+baseSpeed = 5;
 
 // Gun
 gunOffsetX = 24;

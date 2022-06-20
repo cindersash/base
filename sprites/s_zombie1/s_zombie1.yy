@@ -26,7 +26,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f67ae955-cdd6-42ae-969b-a4bf6598ea51","path":"sprites/s_zombie1/s_zombie1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f67ae955-cdd6-42ae-969b-a4bf6598ea51","path":"sprites/s_zombie1/s_zombie1.yy",},"LayerId":{"name":"138cdc39-65a7-4189-933f-e7d9e4575ac0","path":"sprites/s_zombie1/s_zombie1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f67ae955-cdd6-42ae-969b-a4bf6598ea51","path":"sprites/s_zombie1/s_zombie1.yy",},"LayerId":{"name":"898ccfdc-2d36-4e51-9078-cbb62907984d","path":"sprites/s_zombie1/s_zombie1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_zombie1","path":"sprites/s_zombie1/s_zombie1.yy",},"resourceVersion":"1.0","name":"f67ae955-cdd6-42ae-969b-a4bf6598ea51","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,7 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"138cdc39-65a7-4189-933f-e7d9e4575ac0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"898ccfdc-2d36-4e51-9078-cbb62907984d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

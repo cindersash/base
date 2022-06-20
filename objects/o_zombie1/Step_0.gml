@@ -1,15 +1,13 @@
-horizontalVelocity = round(lengthdir_x(baseSpeed, baseDirection));
-verticalVelocity = round(lengthdir_y(baseSpeed, baseDirection));
+horizontalVelocity = lengthdir_x(movementStep, baseDirection);
+verticalVelocity = lengthdir_y(movementStep, baseDirection);
 	
 // Move x and y separately to support "sliding" along walls
-while(abs(horizontalVelocity) > 0 || abs(verticalVelocity) > 0) {
-	if (abs(horizontalVelocity) > 0 && place_free(x + sign(horizontalVelocity), y)) {
-		x += sign(horizontalVelocity);
+for (i=0; i<baseSpeed; i++) {
+	if (horizontalVelocity != 0 && place_free(x + horizontalVelocity, y)) {
+		x += horizontalVelocity;
 	}
-	horizontalVelocity -= sign(horizontalVelocity);
 		
-	if (abs(verticalVelocity) > 0 && place_free(x, y + sign(verticalVelocity))) {
-		y += sign(verticalVelocity);
+	if (verticalVelocity != 0 && place_free(x, y + verticalVelocity)) {
+		y += verticalVelocity;
 	}
-	verticalVelocity -= sign(verticalVelocity);
 }

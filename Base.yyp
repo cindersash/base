@@ -1,17 +1,20 @@
 {
   "resources": [
     {"id":{"name":"s_base","path":"sprites/s_base/s_base.yy",},"order":3,},
+    {"id":{"name":"o_hud","path":"objects/o_hud/o_hud.yy",},"order":6,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":1,},
     {"id":{"name":"o_base","path":"objects/o_base/o_base.yy",},"order":3,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
+    {"id":{"name":"r_test","path":"rooms/r_test/r_test.yy",},"order":1,},
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":4,},
+    {"id":{"name":"f_hud","path":"fonts/f_hud/f_hud.yy",},"order":0,},
     {"id":{"name":"s_zombie1","path":"sprites/s_zombie1/s_zombie1.yy",},"order":4,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":2,},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"order":2,},
     {"id":{"name":"o_zombie1","path":"objects/o_zombie1/o_zombie1.yy",},"order":5,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"r_level","path":"rooms/r_level/r_level.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -25,7 +28,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"r_level","path":"rooms/r_level/r_level.yy",},},
+    {"roomId":{"name":"r_test","path":"rooms/r_test/r_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
