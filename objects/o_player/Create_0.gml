@@ -2,7 +2,7 @@
 baseSpeed = 5;
 
 // Gun
-gunOffsetX = 24;
-gunOffsetY = 5;
-gunAngle = point_direction(0, 0, gunOffsetX, gunOffsetY);
-gunDistance = point_distance(0, 0, gunOffsetX, gunOffsetY);
+#macro _GUN_OFFSET_X 24
+#macro _GUN_OFFSET_Y 5
+_GUN_ANGLE = point_direction(0, 0, _GUN_OFFSET_X, _GUN_OFFSET_Y);
+_GUN_DISTANCE = point_distance(0, 0, _GUN_OFFSET_X, _GUN_OFFSET_Y);

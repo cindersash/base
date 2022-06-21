@@ -1,7 +1,7 @@
-horizontalVelocity = lengthdir_x(1, direction);
-verticalVelocity = lengthdir_y(1, direction);
+var horizontalVelocity = lengthdir_x(1, direction);
+var verticalVelocity = lengthdir_y(1, direction);
 	
-for (i=0; i<baseSpeed; i++) {
+for (var i = 0; i < baseSpeed; i++) {
 	x += horizontalVelocity;
 	y += verticalVelocity;
 	

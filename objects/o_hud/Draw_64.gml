@@ -1,16 +1,14 @@
 draw_set_font(f_hud);
 draw_set_color(c_white);
 
-windowBorder = 5;
+var topRightX = window_get_width() - _WINDOW_BORDER;
+var topRightY = 0 + _WINDOW_BORDER;
 
-topRightX = window_get_width() - windowBorder;
-topRightY = 0 + windowBorder;
+var bottomLeftX = 0 + _WINDOW_BORDER;
+var bottomLeftY = window_get_height() - _WINDOW_BORDER;
 
-bottomLeftX = 0 + windowBorder;
-bottomLeftY = window_get_height() - windowBorder;
-
-bottomRightX = window_get_width() - windowBorder;
-bottomRightY = window_get_height() - windowBorder;
+var bottomRightX = window_get_width() - _WINDOW_BORDER;
+var bottomRightY = window_get_height() - _WINDOW_BORDER;
 
 // Bottom Left
 draw_set_halign(fa_left);
