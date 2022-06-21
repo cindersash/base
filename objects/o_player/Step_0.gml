@@ -40,6 +40,7 @@ if (leftMouseButton) {
 	
 	var created_bullet = instance_create_layer(bulletX, bulletY, "Instances", o_bullet);
 	created_bullet.direction = mousePointDirection;
+	created_bullet.image_angle = created_bullet.direction;
 }
 
 ///////////////////////////////// Camera
