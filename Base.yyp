@@ -12,6 +12,7 @@
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":4,},
     {"id":{"name":"f_hud","path":"fonts/f_hud/f_hud.yy",},"order":0,},
     {"id":{"name":"s_grass_tiles","path":"sprites/s_grass_tiles/s_grass_tiles.yy",},"order":6,},
+    {"id":{"name":"snd_zombie_hit","path":"sounds/snd_zombie_hit/snd_zombie_hit.yy",},"order":1,},
     {"id":{"name":"sh_red","path":"shaders/sh_red/sh_red.yy",},"order":0,},
     {"id":{"name":"s_zombie1","path":"sprites/s_zombie1/s_zombie1.yy",},"order":4,},
     {"id":{"name":"s_blood_splatter","path":"sprites/s_blood_splatter/s_blood_splatter.yy",},"order":7,},
