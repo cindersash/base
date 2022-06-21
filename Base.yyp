@@ -3,6 +3,7 @@
     {"id":{"name":"s_point","path":"sprites/s_point/s_point.yy",},"order":5,},
     {"id":{"name":"s_base","path":"sprites/s_base/s_base.yy",},"order":3,},
     {"id":{"name":"o_hud","path":"objects/o_hud/o_hud.yy",},"order":6,},
+    {"id":{"name":"snd_gunshot","path":"sounds/snd_gunshot/snd_gunshot.yy",},"order":0,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":1,},
     {"id":{"name":"o_base","path":"objects/o_base/o_base.yy",},"order":3,},
     {"id":{"name":"o_game_controller","path":"objects/o_game_controller/o_game_controller.yy",},"order":8,},
