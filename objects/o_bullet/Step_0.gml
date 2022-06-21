@@ -8,7 +8,8 @@ for (var i = 0; i < baseSpeed; i++) {
 	enemyCollisionInstance = instance_place(x, y, o_enemy);
 	if (enemyCollisionInstance != noone) {
 		// TODO proper damage balancing
-		enemyCollisionInstance.hp -= 10;
+		enemyCollisionInstance.hp -= baseDamage;
+		enemyCollisionInstance.hitFrame = HIT_FRAME;
 		
 		var bloodSplatter = instance_create_layer(x, y, "Gore", o_blood_splatter);
 		bloodSplatter.image_angle = direction  + 180;

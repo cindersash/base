@@ -31,7 +31,7 @@ if (horizontalMovement != 0 || verticalMovement != 0) {
 
 ///////////////////////////////// Weapons
 // TODO upgradeable to fully automatic
-var leftMouseButton = mouse_check_button_pressed(mb_left);
+var leftMouseButton = mouse_check_button(mb_left);
 
 if (leftMouseButton) {
 	var bulletAngle = _GUN_ANGLE + mousePointDirection;

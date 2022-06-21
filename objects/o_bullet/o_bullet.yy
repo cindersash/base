@@ -4,7 +4,7 @@
     "path": "sprites/s_bullet/s_bullet.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
