@@ -33,7 +33,13 @@ if (horizontalMovement != 0 || verticalMovement != 0) {
 // TODO upgradeable to fully automatic
 var leftMouseButton = mouse_check_button(mb_left);
 
-if (leftMouseButton) {
+if (reloadSteps > 0) {
+	reloadSteps--;
+}
+
+if (leftMouseButton and reloadSteps == 0) {
+	reloadSteps = reloadSpeed;
+	
 	var bulletAngle = _GUN_ANGLE + mousePointDirection;
 	var bulletX = x + lengthdir_x(_GUN_DISTANCE, bulletAngle);
 	var bulletY = y + lengthdir_y(_GUN_DISTANCE, bulletAngle);
