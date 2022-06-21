@@ -15,6 +15,7 @@
     {"id":{"name":"s_blood_splatter","path":"sprites/s_blood_splatter/s_blood_splatter.yy",},"order":7,},
     {"id":{"name":"s_blood_pool","path":"sprites/s_blood_pool/s_blood_pool.yy",},"order":8,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
+    {"id":{"name":"s_player_moving","path":"sprites/s_player_moving/s_player_moving.yy",},"order":9,},
     {"id":{"name":"o_blood_splatter","path":"objects/o_blood_splatter/o_blood_splatter.yy",},"order":9,},
     {"id":{"name":"o_enemy_controller","path":"objects/o_enemy_controller/o_enemy_controller.yy",},"order":7,},
     {"id":{"name":"o_blood_pool","path":"objects/o_blood_pool/o_blood_pool.yy",},"order":10,},
