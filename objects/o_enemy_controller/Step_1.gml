@@ -1,4 +1,14 @@
-if (random(60) >= 59) {
+// Enemy spawning
+if (o_game_controller.constructionPhase) {
+	return;
+}
+
+// Set a cap on the number of enemies that exist
+if (instance_number(o_enemy) >= MAXIMUM_ENEMIES) {
+	return;
+}
+
+if (random(10) >= 9) {
 	// TODO randomize spawn
 	randomBool = choose(false, true);
 	

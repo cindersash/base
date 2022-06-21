@@ -5,6 +5,7 @@
     {"id":{"name":"o_hud","path":"objects/o_hud/o_hud.yy",},"order":6,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":1,},
     {"id":{"name":"o_base","path":"objects/o_base/o_base.yy",},"order":3,},
+    {"id":{"name":"o_game_controller","path":"objects/o_game_controller/o_game_controller.yy",},"order":8,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
     {"id":{"name":"r_test","path":"rooms/r_test/r_test.yy",},"order":1,},
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":4,},
